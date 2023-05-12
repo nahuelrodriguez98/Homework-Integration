@@ -1,0 +1,8 @@
+.container {
+  background: url('/public/HD-wallpaper-rick-morty-rick-and-morty-rick-y-morty.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0; 
+}

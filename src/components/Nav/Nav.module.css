@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20%;
+}
+.favourite,
+.home,
+.about {
+  font-size: 20px;
+  color: #00f76f;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: all 0.4s ease;
+}
+.favourite:hover,
+.home:hover,
+.about:hover {
+  background-color: #00ff00;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transform: scale(1.1);
+}

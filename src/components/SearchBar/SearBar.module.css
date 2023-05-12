@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button{
+    background-color: transparent;
+    border: 2px solid #4CAF50; /* borde estilo outline */
+    border-radius: 10px; /* borde redondeado */
+    color: #4CAF50; /* color del borde y texto */
+    padding: 10px; /* espaciado interior */
+    font-size: 20px; /* tamaño de fuente */
+    cursor: pointer; 
+    transition: all 0.4s ease-in-out; /* transición suave */
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #0aec12; 
+    color: rgb(0, 0, 0); 
+  
+}
+.input{
+    background-color: transparent;
+  border: 2px solid #4CAF50; /* borde estilo outline */
+  border-radius: 10px; /* borde redondeado */
+  padding: 10px; /* espaciado interior */
+  margin: 20px;
+  font-size: 16px; /* tamaño de fuente */
+  transition: border-color 0.3s ease-in-out; /* transición para el cambio de color del borde */
+}
+.input:focus{
+    outline: none; /* quita el contorno al hacer focus */
+  border-color: #2ecc71; /* cambia el color del borde al hacer focus */
+  caret-color: #2ecc71;
+  color:#2ecc71;
+  font-weight: bold;
+}
