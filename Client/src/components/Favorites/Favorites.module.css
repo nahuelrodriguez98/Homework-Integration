@@ -1,0 +1,39 @@
+.container {
+  height: 80vh;
+  width: 99vw;
+  margin: 10px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.cards {
+  position: relative;
+  flex-basis: calc(20% - 40px);
+  height: 35%;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.cards:hover {
+  height: 400px;
+}
+.selectOne,
+.selectTwo{
+  color: rgb(2, 233, 33);
+  height: 40px;
+  width: 110px;
+  font-family:monospace;
+  background-color: transparent;
+  border: 2px solid rgb(2, 233, 33);
+  box-shadow: 0 0 5px rgb(2, 233, 33);
+  cursor: pointer;
+}
+.selectTwo option,
+.selectOne option{
+  color: rgb(2, 233, 33);
+  background-color: black;
+}

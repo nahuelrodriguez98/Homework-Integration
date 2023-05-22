@@ -1,0 +1,54 @@
+.containerForm{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
+text-align: center;
+}
+.email,
+.password{font-size: 30px;
+text-align: center;
+color: rgb(21, 255, 0);
+
+}
+.inpemail,
+.inpassword {
+border: 2px solid #00ff00;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 10px;
+background-color: transparent;
+color: #fff;
+font-size: 20px;
+transition: all 0.4s ease;
+}
+
+.inpemail:hover,
+.inpassword:hover {
+border: 2px solid #0cf7c4;
+box-shadow: 0 0 5px #0cf7c4;
+cursor: pointer;
+}
+.inpemail:focus,
+.inpassword:focus {
+outline: none;
+box-shadow: none;
+}
+.submit{
+margin: 1%;
+font-size: 20px;
+color: #00ff00;
+border: 2px solid #00ff00;
+border-radius: 10px;
+background-color: transparent;
+padding: 10px;
+}
+.submit:hover{
+border: 2px solid #0cf7c4;
+box-shadow: 0 0 5px #0cf7c4;
+cursor: pointer;
+color: #0cf7c4;
+transform: scale(1.1);
+transition: all 0.4s ease;
+}
