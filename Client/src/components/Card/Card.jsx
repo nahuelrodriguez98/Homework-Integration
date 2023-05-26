@@ -43,7 +43,8 @@ function Card({id, name,status,species,gender,image, onClose, addFav, removeFav,
                <h2>{gender}</h2>
                <h2>{status}</h2>
             </div>
-            <button className={style.boton} onClick={()=>onClose(id)}>Close</button>
+            <button className={style.boton} onClick={() => onClose(id)}>Close</button>
+            
          </div>
       </div>
    );
